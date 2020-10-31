@@ -16,6 +16,11 @@ namespace TiendaServicios.Api.Libros.Controllers
         {
             _mediator = mediator;
         }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<LibroDto>> Get(int id)
+        {
+            return await _mediator.Send(new LibroGet.Request() { LibroId = id });
+        }
         [HttpGet]
         public async Task<ActionResult<List<LibroDto>>> GetList()
         {
