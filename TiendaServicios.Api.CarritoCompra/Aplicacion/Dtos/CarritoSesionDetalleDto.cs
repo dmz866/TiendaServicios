@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace TiendaServicios.Api.Libros.Aplicacion.Dtos
+namespace TiendaServicios.Api.CarritoCompra.Aplicacion.Dtos
 {
-    public class LibroDto
+    public class CarritoSesionDetalleDto
     {
         public int LibroId { get; set; }
         public string Titulo { get; set; }

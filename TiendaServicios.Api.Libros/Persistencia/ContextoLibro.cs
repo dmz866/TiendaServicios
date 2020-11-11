@@ -5,7 +5,7 @@ namespace TiendaServicios.Api.Libros.Persistencia
 {
     public class ContextoLibro: DbContext
     {
-        public DbSet<Libro> Libro { get; set; }
+        public virtual DbSet<Libro> Libro { get; set; }
         public ContextoLibro()
         {
         }

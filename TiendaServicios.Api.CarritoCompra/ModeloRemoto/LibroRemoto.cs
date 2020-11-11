@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace TiendaServicios.Api.Libros.Aplicacion.Dtos
+namespace TiendaServicios.Api.CarritoCompra.ModeloRemoto
 {
-    public class LibroDto
+    public class LibroRemoto
     {
         public int LibroId { get; set; }
         public string Titulo { get; set; }

@@ -35,6 +35,7 @@ namespace TiendaServicios.Api.Autores.Aplicacion.AutorHandler
                     throw new Exception("No se encontro el autor");
                 }
 
+
                 var autorDto = _mapper.Map<Autor, AutorDto>(autor);
                 return autorDto;
             }

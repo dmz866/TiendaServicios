@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Autores", "TiendaServicios.API.Autor\TiendaServicios.Api.Autores.csproj", "{7EB97E93-83F6-47CB-80F0-B9383A756205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libros", "TiendaServicios.Api.Libros\TiendaServicios.Api.Libros.csproj", "{DF4FA74C-399A-4C36-8541-F1E13FBC1CD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libros", "TiendaServicios.Api.Libros\TiendaServicios.Api.Libros.csproj", "{DF4FA74C-399A-4C36-8541-F1E13FBC1CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.CarritoCompra", "TiendaServicios.Api.CarritoCompra\TiendaServicios.Api.CarritoCompra.csproj", "{6EB5D729-507A-40B9-A8B9-E31D4C174755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libros.Test", "TiendaServicios.Api.Libro.Test\TiendaServicios.Api.Libros.Test.csproj", "{609AC547-27CB-4637-BFA1-4002820335A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{DF4FA74C-399A-4C36-8541-F1E13FBC1CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF4FA74C-399A-4C36-8541-F1E13FBC1CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF4FA74C-399A-4C36-8541-F1E13FBC1CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB5D729-507A-40B9-A8B9-E31D4C174755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB5D729-507A-40B9-A8B9-E31D4C174755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB5D729-507A-40B9-A8B9-E31D4C174755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB5D729-507A-40B9-A8B9-E31D4C174755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609AC547-27CB-4637-BFA1-4002820335A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609AC547-27CB-4637-BFA1-4002820335A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609AC547-27CB-4637-BFA1-4002820335A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609AC547-27CB-4637-BFA1-4002820335A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
